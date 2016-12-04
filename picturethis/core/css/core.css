@@ -1,0 +1,130 @@
+
+body, html{
+  overflow-y: auto;
+  overflow-x: hidden;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #d9e3ca;
+}
+
+
+hr{
+	width: 50px;
+	border-color: #c59a6d;
+}
+
+#main{
+	background: #173b42 url(../images/bg.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+/*	background-attachment: fixed;*/
+	min-height: 50em;	
+	height: 75%;
+	padding-top: 60px;
+	color: #ffffff;
+}
+
+.content{
+	padding-top: 6%;
+}
+
+
+nav#menu span.fa.fa-bars{
+	font-size: 30px;
+	color:#79c3d2;
+	cursor: pointer;
+	z-index: 1;
+	position:absolute;
+	left: 20px;
+	top:20px;
+}	
+
+
+.navmenu, .navbar-offcanvas {
+width: 270px;
+z-index: 10;
+}
+.navmenu-default, 
+.navbar-default .navbar-offcanvas {
+	background-color: #112b31;
+	border-color: #1E2429;
+	border: 0;
+}
+.navmenu-default .navmenu-nav>li>a:hover, 
+.navbar-default .navbar-offcanvas .navmenu-nav>li>a:hover, 
+.navmenu-default .navmenu-nav>li>a:focus, 
+.navbar-default .navbar-offcanvas .navmenu-nav>li>a:focus {
+color: #88cad7;/* nav text link hover colors  */
+background-color: transparent;
+}
+.nav > li {
+position: relative;
+display: block;
+text-align: center;
+}
+.navmenu-default .navmenu-nav>li>a, 
+.navbar-default .navbar-offcanvas .navmenu-nav>li>a {
+color: #f7f6f2;
+font-size: 12px;
+line-height: 30px;
+}
+nav#menu span.fa.fa-bars:hover {
+color: #a7d7e1;
+}
+.navmenu-default .navmenu-nav>.active>a, 
+.navbar-default .navbar-offcanvas .navmenu-nav>.active>a, 
+.navmenu-default .navmenu-nav>.active>a:hover, 
+.navbar-default .navbar-offcanvas .navmenu-nav>.active>a:hover, 
+.navmenu-default .navmenu-nav>.active>a:focus, 
+.navbar-default .navbar-offcanvas .navmenu-nav>.active>a:focus {
+color: #C59A6D;
+background-color: transparent;
+}
+
+.close:hover{
+	background: #25626e;
+	color: #fff;
+	opacity: 1;
+}
+.close{
+	background: #20545e;
+	color: #ddd;
+	padding: 10px 12px;
+	opacity: 1;
+	transition: all 0.3s;
+}
+.add-margin-top{ /* needed for close button*/
+	margin-top: 80px;
+}
+.add-margin-bottom{ /* needed for close button*/
+	margin-bottom: 100px;
+}
+#meet-us,
+#services,
+#works,
+#about-us{
+	padding: 60px 0;
+}
+
+.space{ padding-top: 40px; }
+
+.nopadding{
+	padding: 0;
+	margin: 0;
+}
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

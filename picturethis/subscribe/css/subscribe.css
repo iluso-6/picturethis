@@ -1,0 +1,33 @@
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+#main{	
+	border: 10px solid #fef4e6 ;
+} 
+.centered {
+    text-align: center;
+    font-size: 0;
+}
+.centered > div {
+    float: none;
+    display: inline-block;
+    text-align: left;
+    font-size: 12px;
+}
+
+
+/* Extra: Just to see columns...*/
+.row {
+ /*    border: 1px solid black;..*/
+}
+
+.row > div {
+    padding: 3%;
+/*     border: 1px solid red;..*/
+}
+
+

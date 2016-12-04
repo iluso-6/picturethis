@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Basic Page Needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Code_Explorer</title>
+    <meta name="description" content="Your Description Here">
+    <meta name="keywords" content="visualise, visual education, freebies, free demo, programming, javascript, command line, educational tool">
+    <meta name="author" content="Shay de Barra">
+    
+    <!-- Favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="../images/imgLogo3.png" type="image/png">
+
+    <!-- Bootstrap and fonts-->
+    <link  rel="stylesheet" type="text/css" href="../core/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../core/css/jasny-bootstrap.min.css">
+
+	<!-- Bootstrap core CSS -->
+		<link href="../core/css/bootstrap.min.css" rel="stylesheet">
+		<!-- IE10 viewport hack for Surface/desktop Windows 8 bug
+		<link href="../core/css/ie10-viewport-bug-workaround.css" rel="stylesheet"> -->
+		<!-- Custom styles for this template -->
+		<link rel="stylesheet" href="./css/animate.css">
+		<link href="../core/css/core.css" rel="stylesheet">
+		<link href="./css/code_explorer.css" rel="stylesheet">
+	
+  </head>
+  <body>
+
+    <!-- Off Canvas Navigation
+    ================================================== -->
+    <div class="navmenu navmenu-default navmenu-fixed-left offcanvas"> <!--- Off Canvas Side Menu -->
+        <div class="close" data-toggle="offcanvas" data-target=".navmenu">
+            <span class="fa fa-close"></span>
+        </div>
+		<div class="add-margin-top"></div>
+				<img src="../images/side_logo.png" id="side_logo" class="center-block img-responsive" alt="logo">
+        <div class="add-margin-bottom"></div>
+		
+        <ul class="nav navmenu-nav">	
+            <li><a href="../../index.html">HOME</a></li>
+            <li><a href="../command_prompt/index.html">COMMAND PROMPT VISUALISER</a></li>
+            <li><a href="#">JS_CODE EXPLORER</a></li>
+            <li><a href="../web_explorer/web_explorer.html">LIVE WEB EXPLORER (desktop)</a></li>
+            <li><a href = "../subscribe/subscribe.html">SUBSCRIBE</a></li>		
+        </ul>
+    </div> 
+
+<div id="main">
+<div class="container">
+
+<div class="row">
+<div class="col-md-12">
+
+            <!-- Navigation -->
+            <nav id="menu" data-toggle="offcanvas" data-target=".navmenu">
+                <span class="fa fa-bars"></span>
+            </nav>
+			<div id="headerImg" class="hidden-xs">
+				<a href="#"><img src="../images/logo.png" id="logo" class="center-block hidden-xs img-responsive" alt="logo"></a>
+				<div id="header-line"></div>
+			</div>
+</div>
+</div>
+</div>
+    
+
+
+
+
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="frame_header">
+							<div class="top-bar-left">
+								<p>
+									jsCode
+								</p>
+
+								<p>
+									&nbsp;&nbsp;Visualiser
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="navbar-collapse collapse" id="navbar">
+			</div>
+			<!--/.navbar-collapse -->
+
+			<div class="container">
+				<!-- Example row of columns -->
+
+				<div class="row threeColumnContainer">
+					<div class="col-md-4 col-sm-12">
+						<div class="matchHeight clipLeftContainer toEqualise" id=
+						"editorContainer">
+							<pre id="editor">
+function toCelsius(f){
+return (5/9) * (f-32);}
+
+var result = toCelsius(78);
+
+alert(result);
+                  </pre>
+						</div>
+					</div>
+
+					<div class="col-md-5 col-sm-7">
+						<div class="interpreter-wrap">
+							<pre id="interpreter">  
+  </pre>
+						</div>
+
+						<div class="row">
+							<div class="col-md-12 col-sm-12">
+								<div class="upperRow">
+									<div class="btn-toolbar">
+										<a class="btn btn-default btn-sm" id="example_simple_math" onclick=
+										"setExample(this)">Simple<br>
+										Math</a> <a class="btn btn-default btn-sm active" id=
+										"example_return_function" onclick="setExample(this)">Return<br>
+										Function</a> <a class="btn btn-default btn-sm" id="example_fibonacci"
+										onclick="setExample(this)">Fibonacci<br>
+										sequence</a> <a class="btn btn-default btn-sm" id=
+										"example_sort_array" onclick="setExample(this)">Sort<br>
+										Array</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-12 col-sm-12">
+								<div class="lowerRow">
+									<div class="btn-toolbar">
+										<a class="btn btn-default btn-sm" id="example_object_example"
+										onclick="setExample(this)">Object<br>
+										example</a> <a class="btn btn-default btn-sm" id=
+										"example_closure_function" onclick="setExample(this)">Closure<br>
+										Example</a> <a class="btn btn-default btn-sm" id=
+										"example_object_method" onclick="setExample(this)">Object<br>
+										Method</a> <a class="btn btn-default btn-sm" id="example_do_while"
+										onclick="setExample(this)">Do<br>
+										While</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-12 col-sm-12">
+								<div id="buttonsPosition">
+									<div aria-label="..." class="btn-group btn-group-justified" role=
+									"group">
+										<div class="btn-group">
+											<button class="button-group btn enabled" id='btnParse' onclick=
+											"parseButton()" type="button">Parse</button>
+										</div>
+
+										<div class="btn-group">
+											<button class="button-group btn spare" type="button">&nbsp;</button>
+										</div>
+
+										<div class="btn-group">
+											<button class="button-group btn disabled" id='btnStep' onclick=
+											"stepButton()" type="button">Step</button>
+										</div>
+
+										<div class="btn-group">
+											<button class="button-group btn spare" type="button">&nbsp;</button>
+										</div>
+
+										<div class="btn-group">
+											<button class="button-group btn disabled" id='btnRun' onclick=
+											"runButton()" type="button">Run</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-3 col-sm-5">
+						<div class="matchHeight clipRightContainer toEqualise" data-spy="scroll"
+						id="treeWrap">
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-12">
+						<div class="frame_footer">
+							<p>
+								&#169;&nbsp;Picture <i>this</i> Tutorial jsCode Emulator
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script type="text/javascript" src="../core/js/jquery.1.11.1.js"></script>
+
+    <script type="text/javascript" src="../core/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../core/js/jasny-bootstrap.min.js"></script>
+		 
+		<script src="../src-noconflict/ace.js">
+		</script>  
+		<script src="../acorn/acorn_interpreter_full.js">
+		</script> 
+		<script src="js/code_explorer.js">
+		</script> 
+		<script src="js/code_examples.js">
+		</script>
+
+  </body>
+</html>

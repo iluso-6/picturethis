@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Basic Page Needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Live Web Explorer</title>
+    <meta name="description" content="Your Description Here">
+    <meta name="keywords" content="visualise, visual education, freebies, free demo, programming, javascript, command line, educational tool">
+    <meta name="author" content="Shay de Barra">
+    
+    <!-- Favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="../images/imgLogo3.png" type="image/png">
+
+
+    <!-- Bootstrap -->
+    <link href="../core/css/bootstrap.min.css" rel="stylesheet"> <!-- ! Important version for tab panes -->
+    <link  rel="stylesheet" type="text/css" href="../core/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../core/css/jasny-bootstrap.min.css">
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/themes/south-street/jquery-ui.css" type="text/css" media="all">
+	
+    <link rel="stylesheet" type="text/css"  href="../core/css/core.css">
+    <link rel="stylesheet" type="text/css" href="../core/css/responsive.css">
+	<link href="./css/web_explorer.css" rel="stylesheet">
+
+	</head>
+	<body>
+	
+	    <div class="navmenu navmenu-default navmenu-fixed-left offcanvas"> <!--- Off Canvas Side Menu -->
+			<div class="close" data-toggle="offcanvas" data-target=".navmenu">
+				<span class="fa fa-close"></span>
+			</div>
+			<div class="add-margin-top"></div>
+					<img src="../images/side_logo.png" id="logo" class="center-block img-responsive" alt="logo">
+			<div class="add-margin-bottom"></div>
+			
+			<ul class="nav navmenu-nav">	
+				<li><a href="../../index.html">HOME</a></li>
+				<li><a href="../command_prompt/index.html">COMMAND PROMPT VISUALISER</a></li>
+				<li><a href="../code_explorer/code_explorer.html">js_CODE EXPLORER</a></li>
+				<li><a href="#">LIVE WEB EXPLORER (desktop)</a></li>
+				<li><a href = "../subscribe/subscribe.html">SUBSCRIBE</a></li>		
+			</ul>
+		</div> 
+
+		<div id="main">
+			
+			<div class="container-fluid">
+
+				<div class="row">
+					<div class="col-md-12">
+
+						<!-- Navigation -->
+						<nav id="menu" data-toggle="offcanvas" data-target=".navmenu">
+							<span class="fa fa-bars"></span>
+						</nav>
+						<div id="headerImg" class="hidden-xs">
+						<a href="#"><img src="../images/logo.png"  class="center-block hidden-xs img-responsive" alt="logo"></a>
+						<div id="header-line"></div>
+						</div>
+<!--
+						<div class="row">
+							<div class="col-md-12 col-sm-12">
+							
+									<pre id="domArea">  
+									</pre>
+								
+
+								
+							</div>
+						</div>-->
+
+						<div class="frame_header">		
+									<div class="top-bar-left">
+									<p>Web Explorer</p><p>&nbsp;&nbsp;Playground</p>
+									<button type="button" class="btn btn-success btn-sm" id="lazy_button" onclick="preloadHTML();">I'm lazy</button>
+									</div>
+									
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="navbar-collapse collapse" id="navbar">
+			</div>
+			
+
+
+			<div class="container-fluid">
+				
+				<div class="row threeColumnContainer">
+					<div class="col-lg-4 col-md-6">
+						<div class="matchHeight clipLeftContainer toEqualise" id=
+						"editorContainer">
+							<pre id="htmlEditor"></pre>
+						</div>
+					</div>
+
+					<div class="col-lg-3 col-md-6 nopadding">
+						<div id="accordion">
+							<h6><a href="#accordion-1">Css</a></h6>
+							
+									<div class="cssWrap">
+										<pre id="cssEditor"></pre>
+									</div>
+						
+							<h6><a href="#accordion-2" id="head">JavaScript</a><a id="js_button"  onclick="toggleDebugging(this);"></a></h6>
+								
+									<div class="jsWrap">
+										<pre id="jsEditor"></pre>
+									</div>
+															
+						</div>
+						
+	
+						
+					</div>
+					<div class="col-lg-5 col-md-12">
+							<div class="pageWrap">
+								<iframe id="myiframe" style="border:none" ></iframe>
+								
+							</div>					
+					</div>
+				</div>
+	
+				<div class="row">
+					<div class="col-md-12">
+						<div class="frame_footer">
+							<p>
+								&#169;&nbsp;Picture <i>this</i> Tutorial Web Emulator
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Bootstrap core JavaScript
+    ================================================== -->
+		<!-- Placed at the end of the document so the pages load faster -->
+		<script src=
+		"https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
+		</script> 
+		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+		<script type="text/javascript" src="../core/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="../core/js/jasny-bootstrap.min.js"></script>
+		<script src="../core/js/ie10-viewport-bug-workaround.js">
+		</script> 
+		<script src="../src-noconflict/ace.js">
+		</script> 
+		<script src="../src-noconflict/ext-language_tools.js"></script>
+		<script src="../acorn/acorn_interpreter_full.js"></script>		
+		<script src="./js/web_explorer.js">
+		</script> 
+	</body>
+</html>

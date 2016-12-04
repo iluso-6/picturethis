@@ -1,0 +1,29 @@
+[debug] ----------------------------------------------------------------------
+[debug] Command:      C:\Program Files\nodejs\node.exe C:\Users\Shay\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] CLI Version:  3.2.0
+[debug] Platform:     win32
+[debug] Node Version: v5.4.0
+[debug] Time:         Sun Nov 27 2016 23:06:48 GMT+0000 (GMT Standard Time)
+[debug] ----------------------------------------------------------------------
+[debug] 
+[info] Starting Firebase development server...
+[info] 
+[info] Project Directory: C:\Users\Shay\Documents\Javascript\1AAA_TEMP_WORKSPACE\PROJECT_WEB
+[info] Public Directory: public
+[info] 
+[info] Server listening at: http://localhost:5000
+[debug] ----------------------------------------------------------------------
+[debug] Command:      C:\Program Files\nodejs\node.exe C:\Users\Shay\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] CLI Version:  3.2.0
+[debug] Platform:     win32
+[debug] Node Version: v5.4.0
+[debug] Time:         Sun Nov 27 2016 23:08:39 GMT+0000 (GMT Standard Time)
+[debug] ----------------------------------------------------------------------
+[debug] 
+[info] Starting Firebase development server...
+[info] 
+[info] Project Directory: C:\Users\Shay\Documents\Javascript\1AAA_TEMP_WORKSPACE\PROJECT_WEB
+[warn] !  Port 5000 is not available. Trying another port...
+[info] Public Directory: public
+[info] 
+[info] Server listening at: http://localhost:5001

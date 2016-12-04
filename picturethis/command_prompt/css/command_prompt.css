@@ -1,0 +1,424 @@
+/* ============================== */
+/* ! Commen main styling    */
+/* ============================== */
+/* ============================== */
+/* ! Layout for desktop version   */
+/* ==============        override core                    ================ */
+body{
+	background-color:#d9e3ca;
+	
+}
+nav#menu span.fa.fa-bars{
+	position:absolute;
+	left: 20px;
+	top:-20px;
+}
+#main{ 
+
+	height: 20em;	
+}
+/**************    SPECIAL CLASSES       ***************/
+
+
+.matchHeight{
+	min-height:38em;
+}
+
+.threeColumnContainer {
+	background-color:#d9e3ca;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.clipLeftContainer{
+	margin-left:-15px;
+}
+
+.clipRightContainer{
+	margin-right:-15px;
+}
+/**************    END         ***************/
+
+
+
+.clearfix {
+    overflow: auto;
+}
+
+#logo {
+	margin-top:0;
+}
+
+
+#header-line {	
+	border-bottom: 1px solid #516c71;
+	width:40%;
+	margin-top:0em;
+	margin-left:30%;	
+}
+
+
+
+
+.frame_header {
+	float:left;
+	width: 100%;
+	margin-top: 3em;
+	padding-left: 2em;
+	padding-right: 1em;
+	padding-top: .8em;	
+	background: -webkit-linear-gradient(#6f8076 ,#49544e ); 
+    background: -o-linear-gradient(#6f8076 ,#49544e ); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#6f8076 ,#49544e );  /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#6f8076 ,#49544e ); /*(#7e8f7e ,#657565); /* Standard syntax */	
+
+}
+
+
+.frame_header p:nth-child(1) {
+    font-size: 1.4em;
+	float:left;
+	color:#49544E;
+	text-shadow: 1px 1px 0 rgba(255,255,255,0.6);	
+	font-weight:bold;
+}
+
+.frame_header p:nth-child(2) {
+	text-shadow: 1px 1px 0 rgba(0,0,0,1);	
+	color:#86c180;
+    font-size: 1.5em;
+	float:left;
+}
+
+
+/*  ********** tab buttons *****background-color:#54aabe;***/
+
+
+
+.btn-toolbar{
+	height:  100%;
+	width: 100%;
+    text-align:center;
+	margin-left:0px;
+}	      
+	  
+a.btn.btn-default {
+	height:30px;
+	width:60px;
+	background:#333;
+    color: #fff;
+	font: 0.8em 'Tahoma',Consolas,'Courier New';
+	border: 3px solid #7e8f7e;		
+ 	border-radius:4px;
+	display: inline-block;
+	margin-top:2em;
+	margin-left:calc((100% - 300px) / 6);	
+}
+
+a.btn.btn-default:hover  {
+	background-color: #3b7380;
+	border: 3px solid #284e57;	
+}   
+
+a.btn.btn-default.active {
+	background-color: #3b7380;	
+    color: #fff;	
+	border: 3px solid #284e57;
+cursor:default;	
+}
+
+	  
+
+/*  ********** Main lower buttons ********/ 
+
+
+#buttonsPosition{
+	margin-top:2em;
+	text-align:center;
+}
+
+
+.button-group  {
+	padding:2em;
+	background:#3b7380;
+    color: #fff;
+	font: 0.8em 'Tahoma',Consolas,'Courier New';
+ 	border-radius:0;
+
+}
+
+.btn-group>.btn.active{
+
+
+}
+
+.btn-group>.btn:hover {
+    color: #fff;
+	background:#488d9d;
+}
+
+
+/*  ********** END buttons ********/
+
+
+#textContainer{
+    background-color: #3b7380;
+}
+
+.tab-content{	
+    background-color: #3b7380;	
+	color:#fff;
+	border:none;
+	padding:1em;
+    font: 1.2em 'Tahoma',Consolas,'Courier New';		
+}
+
+.tab-content p{
+	
+line-height:1.8em;
+	
+}
+.letterImg{
+vertical-align:baseline;
+	
+}
+
+
+/************** TERMINAL *******************/
+
+.shell-wrap {
+
+    text-align: left;
+	margin-top:1.2em;
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);
+}
+
+#shell-bar {
+    text-align: left;
+    color: #dbe0dd;
+    padding: .4em;
+    font-size: 1.1em;
+    background-color: #7e8f7e;
+}
+
+#shell-bar img {
+    height: 24px;
+    margin-left: 1em;
+    vertical-align: middle;
+}
+
+#term{
+	background: #232323;
+    padding: 5px;
+    list-style: none;
+    height: 250px;
+    color: #e9fde2;
+    font: .8em 'Andale Mono',Consolas,'Courier New';	
+	overflow: hidden;
+}
+
+#term textarea{ 
+	box-shadow: none;
+}
+
+#input {
+    background-color: transparent;
+    border: 0 solid;
+    width: 100%;
+    font: inherit;
+    color: inherit;
+    resize: none;
+    outline: none;
+}
+/************** END *******************/
+
+
+/********************   TREE   ************************/
+
+#treeWrap {
+	text-align:left;
+    background-color: #86c180; /* #769f72; */
+	color:#2d332f;
+		
+}
+
+#jstree {
+	font: bold 0.68em 'Tahoma';	
+    margin-top:30%;
+    display: inline-block;
+}
+
+
+/********************   END   ************************/
+
+
+
+/********************   frame_footer   ************************/
+
+.frame_footer {
+	padding: 1em 1em 0.5em 0;
+	text-shadow: 1px 1px 0 rgba(255,255,255,0.6);
+	font-size: 1em;
+	font-family:ariel;
+	text-align:right;
+	color:#333;
+	background: -webkit-linear-gradient(#6f8076 ,#49544e ); 
+    background: -o-linear-gradient(#6f8076 ,#49544e ); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#6f8076 ,#49544e );  /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#6f8076 ,#49544e );  /* Standard syntax */		
+}
+
+
+/********************   END   ************************/
+
+
+
+/*==================================================
+=            Bootstrap 3 Media Queries             =
+==================================================*/
+
+
+
+
+    /*==========  Mobile First Method  ==========*/
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (min-width : 320px) {
+      
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) {
+
+
+	
+	
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+
+		.threeColumnContainer {
+		background-color:#d9e3ca;
+
+		}
+
+		.clipLeftContainer{
+		margin-left:-15px;
+		margin-right:-15px;
+		}
+
+		.clipRightContainer{
+		margin-right:-15px;
+		}
+	
+		#jstree {
+		margin-left:-0em;
+		}
+	
+	
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+
+    }
+
+
+
+    /*==========  Non-Mobile First Method  ==========*/
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+			.threeColumnContainer {
+		background-color:#d9e3ca;
+
+		}	
+	#jstree {
+	margin-left:1em;
+	}
+	
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+		#main{	
+			height: 15%;
+		}
+		
+		.threeColumnContainer {
+		background-color:#d9e3ca;
+
+		}
+
+		.clipLeftContainer{
+		margin-left:-15px;
+		margin-right:-15px;
+		}
+
+		.clipRightContainer{
+		margin-right:-15px;
+		}
+	
+	#jstree {
+	margin-left:3em;
+	}	
+	
+	.frame_header {
+	margin-top: 1em;
+	
+	
+}
+	}
+
+    @media only screen and (max-width : 480px) {
+		.threeColumnContainer {
+			background-color:#d9e3ca;
+			}
+			
+		a.btn.btn-default { 
+		width:40px;
+		margin-left:5px;	
+		font: 0.6em 'Tahoma',Consolas,'Courier New';
+		padding:5px 0 0 0;
+		border: 2px solid #7e8f7e;		
+		margin-left:calc((100% - 200px) / 6);		
+		}
+
+		.button-group  {
+			padding:1.4em;
+			background:#3b7380;
+			color: #fff;
+			font: 0.6em 'Tahoma',Consolas,'Courier New';
+			border-radius:0;
+
+		}
+
+		
+    }
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+        
+    }
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,225 @@
+
+
+@media (min-width: 1200px){
+	.container {
+		width: 960px;
+	}
+}
+
+
+
+p{
+	font-weight: 400;
+}
+
+
+.content{
+	padding-top: 6%;
+}
+.header-text.btn{
+	border: 1px solid #ffffff;
+	border-radius: 0;
+	padding: 15px 10px 30px 30px;
+	height: 80px;
+		font-weight: 700;
+	font-size: 46px;
+}
+.header-text.btn:hover{
+	color: inherit;
+}
+.header-text.btn:focus, 
+.header-text.btn:active:focus, 
+.header-text.btn.active:focus, 
+.header-text.btn.focus, 
+.header-text.btn:active.focus, 
+.header-text.btn.active.focus {
+	outline: thin dotted transparent;
+	outline: none;
+	outline-offset: -2px;
+}
+.typed-cursor {
+	opacity: 1;
+	padding: 5px 2px;
+	background: #ffffff;
+	margin: 10px;
+	-webkit-animation: blink 0.5s linear infinite;
+    -moz-animation: blink 0.5s linear infinite;
+    animation: blink 0.5s linear infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+span.typed-cursor {
+	top: -5px;
+	position: relative;
+}
+.button_wrap{
+	height:200px;/*adjust button vertical pos border:1px solid red;*/
+}
+.myBtns,.myBtns.active,.myBtns:focus{
+	position:absolute;
+	background:#82ed8f;	
+	color:#173b42; 
+	padding:12px 22px;
+	border-radius: 17px;
+	font-size:1.8em;
+	text-decoration:none;
+	bottom:0;
+	margin-left:-90px;
+}
+.myBtns:hover {
+	background:#9cf0a7;	
+	color:#173b42; 
+	padding:14px 24px;
+	border-radius: 17px;
+	font-size:1.8em;
+	text-decoration:none;	
+}
+
+nav#menu span.fa.fa-bars{
+	font-size: 30px;
+	position: fixed;
+	left: 120px;
+	color:#79c3d2;
+	cursor: pointer;
+	z-index: 1;
+}
+
+img#userId.img-circle{
+	width:40px;
+	height:40px;
+	margin-left:30px;
+}
+
+
+.close:hover{
+	background: #25626e;
+	color: #fff;
+	opacity: 1;
+}
+.close{
+	background: #20545e;
+	color: #ddd;
+	padding: 10px 12px;
+	opacity: 1;
+	transition: all 0.3s;
+}
+.add-margin-top{ /* needed for close button*/
+	margin-top: 80px;
+}
+.add-margin-bottom{ /* needed for close button*/
+	margin-bottom: 100px;
+}
+#meet-us,
+#services,
+#works,
+#about-us{
+	padding: 60px 0;
+}
+
+.space{ padding-top: 40px; }
+
+.nopadding{
+	padding: 0;
+	margin: 0;
+}
+
+
+#footer{
+	padding: 6em 0;
+}
+
+#mediaIcons a{
+		margin:0.2em;
+		font-size:22pt;
+		color:#a0a893;
+		text-decoration:none;
+}
+#mediaIcons a:hover{
+		color:#88c1c8;
+		text-decoration:none;
+}
+
+#emailBtn, #emailBtn:hover{
+	background-color:#a0a893;
+	border-style:none;
+}
+
+#footer{
+display:block;
+}	
+
+#users {
+	margin-top:-14em;
+	margin-right:10em;
+	border:5px solid #fef4e6;
+	border-radius: 15px;
+	background: #173b42 url(../../images/bgusers.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;	
+	color:#fff;	
+	padding:5px 15px 5px 15px;
+}
+#usertitle{
+	width:120px;
+	text-align:center;
+	padding:5px;
+	margin:0 auto;
+	margin-bottom:5px;
+	color:#fef4e6;
+	background-color:#255f69;
+	border-radius: 10px;
+}
+.img-circle{
+	width:50px;
+	height:50px;
+	margin-right:10px;
+}
+
+.userName{
+	padding:10px;
+	background-color:#255f69;
+	border-radius: 10px;
+	color:#fef4e6;
+}
+	
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+	#users{
+		margin-right:2em;
+	}
+	
+    }	
+	
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+	#users{
+		margin-right:10em;
+		
+	}		
+		
+
+    }	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
