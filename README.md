@@ -1,5 +1,6 @@
 # NCI Project submission
 
+***Welcome to The Super Tiny Compiler!***
 Visual Command Line Interpreter
 
 
