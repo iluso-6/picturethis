@@ -6,7 +6,7 @@
 ![alt tag](https://github.com/Cuanshay/picturethis/blob/gh-pages/emulator.jpg?raw=true)
 
 Here a command line emulator can be use to navigate, rename, delete directories and much more. It's purpose is to visually represent what is happening behind the commands entered. Follow the built in tutorial to see the visual changes in the virtual tree structure.
-I built this experimental app mainly to help me and others who think visually, to easily learn common comands used.
+I built this experimental app mainly to help me and others who think visually, to easily learn common commands frequently used.
 
 
 ***JavaScript Visual Interpreter***
