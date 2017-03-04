@@ -13,8 +13,11 @@ I built this experimental app mainly to help me and others who think visually - 
 
 
 ![alt tag](https://github.com/Cuanshay/picturethis/blob/gh-pages/Visual_JavaScript_Emulator.jpg?raw=true)
-
+<hr>
+<br><br>
 ***Home made version of JS Fiddle***
 
 
 ![alt tag](https://github.com/Cuanshay/picturethis/blob/gh-pages/Home-made_JS_Fiddle.jpg?raw=true)
+<hr>
+<br><br>
