@@ -1,4 +1,4 @@
-# NCI Project submission
+# NCI Project submission semester 1
 
 ***Visual Command Line Interpreter***
 
