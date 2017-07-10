@@ -9,6 +9,7 @@ Here a command line emulator can be use to navigate, rename, delete directories 
 I built this experimental app mainly to help me and others who think visually - to easily learn common commands frequently used.
 <hr>
 <br><br>
+
 ***JavaScript Visual Interpreter***
 
 
